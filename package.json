@@ -1,0 +1,19 @@
+{
+  "name": "dvchacks.github.io",
+  "version": "1.0.0",
+  "description": "Official website of DVCHacks!",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvchacks/dvchacks.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvchacks/dvchacks.github.io/issues"
+  },
+  "homepage": "https://github.com/dvchacks/dvchacks.github.io#readme"
+}
