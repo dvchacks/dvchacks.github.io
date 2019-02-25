@@ -8,5 +8,10 @@
   Foundation
 */
 @include foundation-global-styles;
+@include foundation-forms;
 @include foundation-typography;
 @include foundation-xy-grid-classes;
+@include foundation-sticky;
+@include foundation-top-bar;
+@include foundation-menu;
+@include foundation-button;
