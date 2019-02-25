@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/dvchacks/dvchacks.github.io/issues"
   },
-  "homepage": "https://github.com/dvchacks/dvchacks.github.io#readme"
+  "homepage": "https://github.com/dvchacks/dvchacks.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "panini": "^1.6.3"
+  }
 }
