@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <title>{{ meta.title }}</title>
+
   <!-- Meta Tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,7 +14,8 @@
   <meta property="og:url" content="{{ meta.url }}">
   <meta property="og:image" content="{{ meta.logo }}">
 
-  <title>{{ meta.title }}</title>
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   {{> body}}

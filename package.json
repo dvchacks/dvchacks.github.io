@@ -18,6 +18,11 @@
   "homepage": "https://github.com/dvchacks/dvchacks.github.io#readme",
   "devDependencies": {
     "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0",
     "panini": "^1.6.3"
+  },
+  "dependencies": {
+    "foundation-sites": "^6.5.3"
   }
 }

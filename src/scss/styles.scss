@@ -1,0 +1,12 @@
+/*
+  Imports
+*/
+@import 'settings';
+@import 'foundation';
+
+/*
+  Foundation
+*/
+@include foundation-global-styles;
+@include foundation-typography;
+@include foundation-xy-grid-classes;
