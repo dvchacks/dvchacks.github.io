@@ -1,0 +1,24 @@
+[
+  {
+    "date": "April 13",
+    "times": [
+      {
+        "time": "12:00",
+        "what": "Hackathon starts"
+      },
+      {
+        "time": "13:00",
+        "what": "Lunch"
+      }
+    ]
+  },
+  {
+    "date": "April 14",
+    "times": [
+      {
+        "time": "12:00",
+        "what": "Hackathon ends"
+      }
+    ]
+  }
+]

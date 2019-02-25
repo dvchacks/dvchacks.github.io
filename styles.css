@@ -2866,3 +2866,8 @@ a.button:hover, a.button:focus {
 #about {
   background: #e6e6e6;
   padding: 2.5rem 0; }
+
+#schedule {
+  background: #8a8a8a;
+  color: #fefefe;
+  padding: 2.5rem 0; }
