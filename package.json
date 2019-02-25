@@ -20,9 +20,12 @@
     "gulp": "^4.0.0",
     "gulp-sass": "^4.0.2",
     "node-sass": "^4.11.0",
-    "panini": "^1.6.3"
+    "panini": "^1.6.3",
+    "webpack": "^4.29.5",
+    "webpack-stream": "^5.2.1"
   },
   "dependencies": {
-    "foundation-sites": "^6.5.3"
+    "foundation-sites": "^6.5.3",
+    "jquery": "^3.3.1"
   }
 }
