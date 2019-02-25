@@ -16,10 +16,16 @@
 @include foundation-top-bar;
 @include foundation-menu;
 @include foundation-button;
+@include foundation-card;
 
 /*
   Custom
 */
 #landing {
   height: 90vh;
+}
+
+#about {
+  background: $light-gray;
+  padding: 2.5rem 0;
 }

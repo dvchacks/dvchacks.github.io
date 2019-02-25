@@ -2826,8 +2826,43 @@ ul.no-bullet, ol.no-bullet {
 a.button:hover, a.button:focus {
   text-decoration: none; }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-bottom: 1rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 0;
+  background: #fefefe;
+  box-shadow: none;
+  overflow: hidden;
+  color: #0a0a0a; }
+  .card > :last-child {
+    margin-bottom: 0; }
+
+.card-divider {
+  display: flex;
+  flex: 0 1 auto;
+  padding: 1rem;
+  background: #e6e6e6; }
+  .card-divider > :last-child {
+    margin-bottom: 0; }
+
+.card-section {
+  flex: 1 0 auto;
+  padding: 1rem; }
+  .card-section > :last-child {
+    margin-bottom: 0; }
+
+.card-image {
+  min-height: 1px; }
+
 /*
   Custom
 */
 #landing {
   height: 90vh; }
+
+#about {
+  background: #e6e6e6;
+  padding: 2.5rem 0; }
