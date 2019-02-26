@@ -35,3 +35,16 @@
   color: $white;
   padding: 2.5rem 0;
 }
+
+#venue {
+  background: $light-gray;
+
+  .map-container {
+    height: 50vh;
+  }
+
+  .map {
+    width: 100%;
+    height: 100%;
+  }
+}

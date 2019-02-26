@@ -2871,3 +2871,11 @@ a.button:hover, a.button:focus {
   background: #8a8a8a;
   color: #fefefe;
   padding: 2.5rem 0; }
+
+#venue {
+  background: #e6e6e6; }
+  #venue .map-container {
+    height: 50vh; }
+  #venue .map {
+    width: 100%;
+    height: 100%; }
