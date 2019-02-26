@@ -2879,3 +2879,8 @@ a.button:hover, a.button:focus {
   #venue .map {
     width: 100%;
     height: 100%; }
+
+#faq {
+  background: #8a8a8a;
+  color: #fefefe;
+  padding: 2.5rem 0; }

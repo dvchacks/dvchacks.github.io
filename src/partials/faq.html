@@ -1,0 +1,18 @@
+<div id="faq" class="grid-x grid-padding-x align-center align-middle">
+  <div class="cell medium-6 large-8">
+    <h1>FAQ</h1>
+    <div class="grid-x grid-margin-x">
+      {{#each faq}}
+        <div class="cell medium-6 large-4">
+          <h3>{{ question }}</h3>
+          <p>{{ answer }}</p>
+        </div>
+      {{/each}}
+    </div>
+    <hr>
+    <p>
+      Still have some unaswered questions?
+      <a href="#contact" data-smooth-scroll>Contact us!</a>
+    </p>
+  </div>
+</div>
