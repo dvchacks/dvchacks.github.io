@@ -21,6 +21,26 @@
 /*
   Custom
 */
+#navbar {
+  a {
+    color: $white;
+  }
+
+  .top-bar {
+    padding: 0;
+  }
+
+  .top-bar-right {
+    height: 100%;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+}
+
 #landing {
   height: 90vh;
 }
@@ -53,4 +73,11 @@
   background: $dark-gray;
   color: $white;
   padding: 2.5rem 0;
+}
+
+/*
+  Utils
+*/
+.full-height {
+  height: 100%;
 }
