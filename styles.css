@@ -170,7 +170,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #fefefe;
+  background: #031735;
   font-family: "Raleway", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
@@ -2617,10 +2617,10 @@ ul.no-bullet, ol.no-bullet {
       background-color: #22bb5b;
       color: #0a0a0a; }
   .button.warning {
-    background-color: #ffae00;
+    background-color: #ff7057;
     color: #0a0a0a; }
     .button.warning:hover, .button.warning:focus {
-      background-color: #cc8b00;
+      background-color: #ff3613;
       color: #0a0a0a; }
   .button.alert {
     background-color: #cc4b37;
@@ -2656,7 +2656,7 @@ ul.no-bullet, ol.no-bullet {
       opacity: 0.25;
       cursor: not-allowed; }
       .button.disabled.warning, .button.disabled.warning:hover, .button.disabled.warning:focus, .button[disabled].warning, .button[disabled].warning:hover, .button[disabled].warning:focus {
-        background-color: #ffae00;
+        background-color: #ff7057;
         color: #0a0a0a; }
     .button.disabled.alert, .button[disabled].alert {
       opacity: 0.25;
@@ -2705,14 +2705,14 @@ ul.no-bullet, ol.no-bullet {
           border: 1px solid #3adb76;
           color: #3adb76; }
     .button.hollow.warning {
-      border: 1px solid #ffae00;
-      color: #ffae00; }
+      border: 1px solid #ff7057;
+      color: #ff7057; }
       .button.hollow.warning:hover, .button.hollow.warning:focus {
-        border-color: #805700;
-        color: #805700; }
+        border-color: #ab1900;
+        color: #ab1900; }
         .button.hollow.warning:hover.disabled, .button.hollow.warning:hover[disabled], .button.hollow.warning:focus.disabled, .button.hollow.warning:focus[disabled] {
-          border: 1px solid #ffae00;
-          color: #ffae00; }
+          border: 1px solid #ff7057;
+          color: #ff7057; }
     .button.hollow.alert {
       border: 1px solid #cc4b37;
       color: #cc4b37; }
@@ -2771,14 +2771,14 @@ ul.no-bullet, ol.no-bullet {
       .button.clear.success, .button.clear.success.disabled, .button.clear.success[disabled], .button.clear.success:hover, .button.clear.success:hover.disabled, .button.clear.success:hover[disabled], .button.clear.success:focus, .button.clear.success:focus.disabled, .button.clear.success:focus[disabled] {
         border-color: transparent; }
     .button.clear.warning {
-      border: 1px solid #ffae00;
-      color: #ffae00; }
+      border: 1px solid #ff7057;
+      color: #ff7057; }
       .button.clear.warning:hover, .button.clear.warning:focus {
-        border-color: #805700;
-        color: #805700; }
+        border-color: #ab1900;
+        color: #ab1900; }
         .button.clear.warning:hover.disabled, .button.clear.warning:hover[disabled], .button.clear.warning:focus.disabled, .button.clear.warning:focus[disabled] {
-          border: 1px solid #ffae00;
-          color: #ffae00; }
+          border: 1px solid #ff7057;
+          color: #ff7057; }
       .button.clear.warning, .button.clear.warning.disabled, .button.clear.warning[disabled], .button.clear.warning:hover, .button.clear.warning:hover.disabled, .button.clear.warning:hover[disabled], .button.clear.warning:focus, .button.clear.warning:focus.disabled, .button.clear.warning:focus[disabled] {
         border-color: transparent; }
     .button.clear.alert {
@@ -2815,7 +2815,7 @@ ul.no-bullet, ol.no-bullet {
   .button.dropdown.hollow.success::after, .button.dropdown.clear.success::after {
     border-top-color: #3adb76; }
   .button.dropdown.hollow.warning::after, .button.dropdown.clear.warning::after {
-    border-top-color: #ffae00; }
+    border-top-color: #ff7057; }
   .button.dropdown.hollow.alert::after, .button.dropdown.clear.alert::after {
     border-top-color: #cc4b37; }
   .button.arrow-only::after {
@@ -2883,7 +2883,18 @@ a.button:hover, a.button:focus {
     font-weight: bold; }
 
 #landing {
-  height: 90vh; }
+  height: 90vh;
+  color: #fefefe; }
+  #landing h1 {
+    color: #4ab88a;
+    font-size: 5rem;
+    line-height: 1; }
+  #landing p {
+    margin: 0; }
+  #landing .event-info {
+    font-weight: bold;
+    color: #ff7057;
+    font-size: 1.25rem; }
 
 #about {
   background: #e6e6e6;
@@ -2912,3 +2923,10 @@ a.button:hover, a.button:focus {
 */
 .full-height {
   height: 100%; }
+
+.divider {
+  display: inline-block;
+  background: #fefefe;
+  height: 5px;
+  width: 200px;
+  margin: 2rem 0 1.5rem; }
