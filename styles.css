@@ -171,7 +171,7 @@ body {
   margin: 0;
   padding: 0;
   background: #fefefe;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Raleway", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -495,7 +495,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Oswald", Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   color: inherit;
@@ -2860,11 +2860,15 @@ a.button:hover, a.button:focus {
 /*
   Custom
 */
-#navbar a {
-  color: #fefefe; }
-
 #navbar .top-bar {
   padding: 0; }
+
+#navbar .top-bar-left {
+  padding: 0.5rem; }
+  #navbar .top-bar-left .title {
+    font-family: "Oswald", Helvetica, Roboto, Arial, sans-serif; }
+    #navbar .top-bar-left .title h4 {
+      margin-bottom: 0; }
 
 #navbar .top-bar-right {
   height: 100%; }
@@ -2873,6 +2877,10 @@ a.button:hover, a.button:focus {
   display: flex;
   align-items: center;
   height: 100%; }
+  #navbar ul a {
+    color: #fefefe; }
+  #navbar ul button {
+    font-weight: bold; }
 
 #landing {
   height: 90vh; }

@@ -22,12 +22,20 @@
   Custom
 */
 #navbar {
-  a {
-    color: $white;
-  }
-
   .top-bar {
     padding: 0;
+  }
+
+  .top-bar-left {
+    padding: 0.5rem;
+
+    .title {
+      font-family: $header-font-family;
+
+      h4 {
+        margin-bottom: 0;
+      }
+    }
   }
 
   .top-bar-right {
@@ -38,6 +46,14 @@
     display: flex;
     align-items: center;
     height: 100%;
+
+    a {
+      color: $white;
+    }
+
+    button {
+      font-weight: bold;
+    }
   }
 }
 
