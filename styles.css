@@ -174,7 +174,7 @@ body {
   font-family: "Raleway", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
-  color: #0a0a0a;
+  color: #fefefe;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -2973,8 +2973,7 @@ a.button:hover, a.button:focus {
     font-weight: bold; }
 
 #landing {
-  height: 90vh;
-  color: #fefefe; }
+  height: 90vh; }
   #landing h1 {
     color: #4ab88a;
     font-size: 5rem;
@@ -2987,16 +2986,14 @@ a.button:hover, a.button:focus {
     font-size: 1.25rem; }
 
 #about {
-  background: #e6e6e6;
+  background: #4ab88a;
   padding: 2.5rem 0; }
 
 #schedule {
-  background: #8a8a8a;
-  color: #fefefe;
   padding: 2.5rem 0; }
 
 #venue {
-  background: #e6e6e6; }
+  background: #4ab88a; }
   #venue .map-container {
     height: 50vh; }
   #venue .map {
@@ -3004,8 +3001,6 @@ a.button:hover, a.button:focus {
     height: 100%; }
 
 #faq {
-  background: #8a8a8a;
-  color: #fefefe;
   padding: 2.5rem 0; }
 
 /*

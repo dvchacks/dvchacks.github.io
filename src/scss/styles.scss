@@ -61,7 +61,6 @@
 
 #landing {
   height: 90vh;
-  color: $white;
 
   // Temporary logo.
   h1 {
@@ -82,18 +81,16 @@
 }
 
 #about {
-  background: $light-gray;
+  background: $primary-color;
   padding: 2.5rem 0;
 }
 
 #schedule {
-  background: $dark-gray;
-  color: $white;
   padding: 2.5rem 0;
 }
 
 #venue {
-  background: $light-gray;
+  background: $primary-color;
 
   .map-container {
     height: 50vh;
@@ -106,8 +103,6 @@
 }
 
 #faq {
-  background: $dark-gray;
-  color: $white;
   padding: 2.5rem 0;
 }
 
