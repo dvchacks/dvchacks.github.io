@@ -3,12 +3,44 @@
     "date": "April 13",
     "times": [
       {
+        "time": "09:00",
+        "what": "Check In"
+      },
+      {
+        "time": "10:00",
+        "what": "Opening Ceremony"
+      },
+      {
+        "time": "11:00",
+        "what": "Lunch & Snacks"
+      },
+      {
         "time": "12:00",
-        "what": "Hackathon starts"
+        "what": "Hacking Begins"
       },
       {
         "time": "13:00",
-        "what": "Lunch"
+        "what": "Workshop 1 (TBA)"
+      },
+      {
+        "time": "14:00",
+        "what": "Workshop 2 (TBA)"
+      },
+      {
+        "time": "15:00",
+        "what": "Workshop 3 (TBA)"
+      },
+      {
+        "time": "17:00",
+        "what": "Team Building Activity"
+      },
+      {
+        "time": "19:00",
+        "what": "Dinner"
+      },
+      {
+        "time": "20:00",
+        "what": "Venue Closing"
       }
     ]
   },
@@ -16,8 +48,20 @@
     "date": "April 14",
     "times": [
       {
+        "time": "09:00",
+        "what": "Check In, Hacking Continues"
+      },
+      {
+        "time": "11:00",
+        "what": "Lunch"
+      },
+      {
         "time": "12:00",
-        "what": "Hackathon ends"
+        "what": "Hacking Ends, Judging Begins"
+      },
+      {
+        "time": "13:30",
+        "what": "Awards Announcement & Closing Ceremony"
       }
     ]
   }
