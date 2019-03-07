@@ -3,10 +3,15 @@
     <h1>Schedule</h1>
     <div class="grid-x">
       {{#each schedule}}
-        <div class="cell medium-6">
+        <div class="schedule-cell cell large-6">
           <h3>{{ date }}</h3>
           {{#each times}}
-            <p>{{ time }} - {{ what }}</p>
+            <div class="time-slot">
+              <span class="time"><b>{{ time }}</b></span>
+              <div class="vertical-divider"></div>
+              {{ what }}
+            </div>
+            <!-- <div class="divider"></div> -->
           {{/each}}
         </div>
       {{/each}}

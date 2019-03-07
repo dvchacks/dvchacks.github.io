@@ -87,6 +87,29 @@
 
 #schedule {
   padding: 2.5rem 0;
+
+  .schedule-cell {
+    margin-bottom: 2rem;
+  }
+
+  .time-slot {
+    display: flex;
+    border-bottom: rgba(255, 255, 255, 0.25) 1px solid;
+    padding: 1rem 0;
+    margin-right: 2rem;
+
+    .time {
+      width: 3.75rem;
+    }
+  }
+
+  .vertical-divider {
+    display: inline-block;
+    height: 20px;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.25);
+    margin-right: 1rem;
+  }
 }
 
 #venue {

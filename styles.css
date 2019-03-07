@@ -2991,6 +2991,21 @@ a.button:hover, a.button:focus {
 
 #schedule {
   padding: 2.5rem 0; }
+  #schedule .schedule-cell {
+    margin-bottom: 2rem; }
+  #schedule .time-slot {
+    display: flex;
+    border-bottom: rgba(255, 255, 255, 0.25) 1px solid;
+    padding: 1rem 0;
+    margin-right: 2rem; }
+    #schedule .time-slot .time {
+      width: 3.75rem; }
+  #schedule .vertical-divider {
+    display: inline-block;
+    height: 20px;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.25);
+    margin-right: 1rem; }
 
 #venue {
   background: #4ab88a; }
