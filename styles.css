@@ -3015,9 +3015,13 @@ a.button:hover, a.button:focus {
     width: 100%;
     height: 100%; }
   #venue .venue-container {
-    padding: 2.5rem; }
+    padding: 2.5rem 0; }
 
 #faq {
+  padding: 2.5rem 0; }
+
+#sponsor {
+  background: #4ab88a;
   padding: 2.5rem 0; }
 
 /*

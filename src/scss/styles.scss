@@ -22,6 +22,8 @@
 /*
   Custom
 */
+$section-padding: 2.5rem 0;
+
 #navbar {
   .top-bar {
     padding: 0;
@@ -82,11 +84,11 @@
 
 #about {
   background: $primary-color;
-  padding: 2.5rem 0;
+  padding: $section-padding;
 }
 
 #schedule {
-  padding: 2.5rem 0;
+  padding: $section-padding;
 
   .schedule-cell {
     margin-bottom: 2rem;
@@ -125,12 +127,17 @@
   }
 
   .venue-container {
-    padding: 2.5rem;
+    padding: $section-padding;
   }
 }
 
 #faq {
-  padding: 2.5rem 0;
+  padding: $section-padding;
+}
+
+#sponsor {
+  background: $primary-color;
+  padding: $section-padding;
 }
 
 /*
