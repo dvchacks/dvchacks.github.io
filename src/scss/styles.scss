@@ -80,6 +80,14 @@ $section-padding: 2.5rem 0;
     color: $warning-color;
     font-size: 1.25rem;
   }
+
+  .logo {
+    width: 250px;
+  }
+
+  .caption {
+    margin-top: 30px;
+  }
 }
 
 #about {
@@ -92,6 +100,10 @@ $section-padding: 2.5rem 0;
 
   .schedule-cell {
     margin-bottom: 2rem;
+  }
+
+  .dates{
+    color: $warning-color;
   }
 
   .time-slot {
@@ -133,6 +145,9 @@ $section-padding: 2.5rem 0;
 
 #faq {
   padding: $section-padding;
+  .question{
+    color: $warning-color;
+  }
 }
 
 #sponsor {
