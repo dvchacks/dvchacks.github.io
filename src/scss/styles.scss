@@ -93,6 +93,11 @@ $section-padding: 2.5rem 0;
 #about {
   background: $primary-color;
   padding: $section-padding;
+
+  .about-card {
+    display: block;
+    padding: 2.5rem;
+  }
 }
 
 #schedule {

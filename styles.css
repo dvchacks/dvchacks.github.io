@@ -2992,6 +2992,9 @@ a.button:hover, a.button:focus {
 #about {
   background: #4ab88a;
   padding: 2.5rem 0; }
+  #about .about-card {
+    display: block;
+    padding: 2.5rem; }
 
 #schedule {
   padding: 2.5rem 0; }
