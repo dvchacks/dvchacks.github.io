@@ -96,7 +96,14 @@ $section-padding: 2.5rem 0;
 
   .about-card {
     display: block;
-    padding: 2.5rem;
+
+    @include breakpoint(medium down) {
+      padding: 1.25rem;
+    }
+
+    @include breakpoint(large) {
+      padding: 2.5rem;
+    }
   }
 }
 

@@ -2993,8 +2993,13 @@ a.button:hover, a.button:focus {
   background: #4ab88a;
   padding: 2.5rem 0; }
   #about .about-card {
-    display: block;
-    padding: 2.5rem; }
+    display: block; }
+    @media screen and (max-width: 63.99875em) {
+      #about .about-card {
+        padding: 1.25rem; } }
+    @media print, screen and (min-width: 64em) {
+      #about .about-card {
+        padding: 2.5rem; } }
 
 #schedule {
   padding: 2.5rem 0; }
