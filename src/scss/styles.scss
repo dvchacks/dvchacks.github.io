@@ -108,6 +108,25 @@ $section-padding: 2.5rem 0;
     @include breakpoint(large) {
       padding: 2.5rem;
     }
+
+    .carousel-cell {
+      margin-top: 2.5rem;
+
+      .orbit-previous, .orbit-next {
+        color: $dark-gray;
+      }
+
+      .orbit-slide {
+        img {
+          height: 200px;
+        }
+
+        .img-caption {
+          font-weight: bold;
+          margin-top: 1rem;
+        }
+      }
+    }
   }
 }
 
