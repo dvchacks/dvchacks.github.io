@@ -3569,10 +3569,9 @@ a.button:hover, a.button:focus {
   padding: 2.5rem 0; }
 
 #footer {
-  background: #4ab88a;
-  height: 2.5rem; }
+  background: #4ab88a; }
   #footer p {
-    margin-bottom: 0; }
+    margin: 0.5rem 0; }
 
 /*
   Utils
