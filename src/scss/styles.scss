@@ -3,6 +3,7 @@
 */
 @import 'settings';
 @import 'foundation';
+@import 'motion-ui';
 
 /*
   Foundation
@@ -18,6 +19,9 @@
 @include foundation-menu;
 @include foundation-button;
 @include foundation-card;
+@include foundation-orbit;
+@include motion-ui-transitions;
+@include motion-ui-animations;
 
 /*
   Custom

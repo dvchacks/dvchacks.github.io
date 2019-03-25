@@ -39,7 +39,10 @@ function style() {
   .src('src/scss/**/*.scss')
   .pipe(
     sass({
-      includePaths: './node_modules/foundation-sites/scss'
+      includePaths: [
+        './node_modules/foundation-sites/scss',
+        './node_modules/motion-ui/src'
+      ]
     })
     .on('error', sass.logError)
   )
