@@ -29,6 +29,8 @@
 $section-padding: 2.5rem 0;
 
 #navbar {
+  z-index: 100;
+
   .top-bar {
     padding: 0;
   }
