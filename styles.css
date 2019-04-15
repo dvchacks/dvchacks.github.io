@@ -3504,9 +3504,9 @@ a.button:hover, a.button:focus {
     color: #ff7057;
     font-size: 1.25rem; }
   #landing .logo {
-    width: 250px; }
+    width: 300px; }
   #landing .caption {
-    margin-top: 30px; }
+    margin-top: 12px; }
 
 #about {
   background: #4ab88a;
