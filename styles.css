@@ -3567,6 +3567,14 @@ a.button:hover, a.button:focus {
 #sponsor {
   background: #4ab88a;
   padding: 2.5rem 0; }
+  #sponsor .sponsor-logos {
+    align-items: center;
+    display: flex;
+    flex-direction: column; }
+  #sponsor img {
+    max-height: 200px;
+    max-width: 40vw;
+    margin: 1rem 0; }
 
 #footer {
   background: #4ab88a; }

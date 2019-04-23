@@ -190,6 +190,18 @@ $section-padding: 2.5rem 0;
 #sponsor {
   background: $primary-color;
   padding: $section-padding;
+
+  .sponsor-logos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    max-height: 200px;
+    max-width: 40vw;
+    margin: 1rem 0;
+  }
 }
 
 #footer {
