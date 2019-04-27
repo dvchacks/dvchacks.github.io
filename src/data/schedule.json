@@ -16,23 +16,35 @@
       },
       {
         "time": "12:00",
+        "what": "Team Formation"
+      },
+      {
+        "time": "12:00",
         "what": "Hacking Begins"
       },
       {
         "time": "13:00",
-        "what": "Workshop 1 (TBA)"
+        "what": "Workshop 1: Intro to Git & Github"
       },
       {
         "time": "14:00",
-        "what": "Workshop 2 (TBA)"
+        "what": "Workshop 2: Intro to Web Development by Google"
       },
       {
         "time": "15:00",
-        "what": "Workshop 3 (TBA)"
+        "what": "Snack"
+      },
+      {
+        "time": "16:00",
+        "what": "Workshop 3: Intro to APIs"
       },
       {
         "time": "17:00",
-        "what": "Team Building Activity"
+        "what": "Workshop 4: Cloud Computing with AWS"
+      },
+      {
+        "time": "18:00",
+        "what": "Fun Activity: Cup Stacking"
       },
       {
         "time": "19:00",
